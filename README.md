@@ -3,7 +3,7 @@
 A room availability display for BU Computing.
 
 ###### Intro
-A simple web app which shows room availability for Poole house 2nd floor labs. Hopefully this will be implemented on a screen in the elevator lobby.
+A simple web app which shows room availability for Poole house 2nd floor labs. Hopefully this will be implemented on a screen in the elevator lobby. [Screenshot](https://imgur.com/uA4TRjw)
 
 ###### How It Works
 The application works by drawing an SVG of Poole house 2nd floor and applying HTML tags to each individual room. When the page is requested, the Flask backend injects json containing room availability into the page before it is rendered, and javascript uses this to color the rooms using their HTML tags. The system also has a small RESTful API so the data can be exposed.
