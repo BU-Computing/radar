@@ -1,5 +1,5 @@
 # RADAR
-### Room Availability Detection (and Reconnaissance).  
+### Room Availability Discovery (and Reconnaissance).  
 A room availability display for BU Computing.
 
 ###### Intro
