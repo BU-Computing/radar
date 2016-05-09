@@ -30,7 +30,7 @@ python ./manage.py runserver
 ...and it will start on 127.0.0.1:5000.
 
 ###### Requirements
-The app should run on any machine with python. The dependency install script (app/deploy/install.sh) should handle everything.
+The app should run on any machine with Python 2.7. The dependency install script (app/deploy/install.sh) should handle everything. Python 3 support is detailed in [issue 1](https://github.com/BU-Computing/radar/issues/1)
 
 ###### Limitations
 Currently, timetable data has been input manually which works but isn't ideal (it only takes a few minutes to do and only changes every once a term, but it's a bit of a pain). There are currently talks with IT Services to provide this data programatically.
